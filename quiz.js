@@ -22,7 +22,7 @@ var answer = document.getElementById("answer");
 if (globalScore==0){
   answer.innerText = "You need to complete the quiz!!"; 
 }   else if  (globalScore>0 && globalScore <=11){   
-  answer.innerText = "Result: You are a Noob. A Noob is a newbie and should not be pursing a career in hacking.";
+  answer.innerText = "Result: You are a Noob. A Noob is a newbie and should not be pursuing a career in hacking.";
 }   else if (globalScore>11 && globalScore <=20){
   answer.innerText= "Result: You have the potential to be the greatest hacker. Maybe you should consider a change of career?"; 
 }   else if (globalScore>20 && globalScore <=24){
